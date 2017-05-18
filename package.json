@@ -16,7 +16,6 @@
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",
-    "babel-preset-latest": "^6.16.0",
-    "webpack": "^2.5.1"
+    "babel-preset-latest": "^6.16.0"
   }
 }

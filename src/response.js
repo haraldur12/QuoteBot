@@ -1,6 +1,6 @@
 const schedule = require('node-schedule');
 const client = require('./client')
-const stream = client.stream('statuses/filter', {track: 'javascript',track :'nodejs',track:'twitter'});
+const stream = client.stream('statuses/filter', {track: 'şiir',track :'budizm',track:'şair'});
 
 // digits stand for seconds minutes hours days weeks and years
 // if you want to send messages to users whom you are tracking you can
@@ -14,7 +14,7 @@ const interactWithPeople = () => schedule.scheduleJob('10 * * * * *', () => {
       } else {
       console.log(tweet.text);
     }});
-    client.post('statuses/update', {status: `@${tweet.user.screen_name} Your message here. :)`},(error,response,tweet) => {
+    client.post('statuses/update', {status: `@${tweet.user.screen_name} ufkunuzu acacak guzel sozler icin bizi takip edin :)`},(error,response,tweet) => {
       if(error) {
         console.log(error);
       }
@@ -22,4 +22,4 @@ const interactWithPeople = () => schedule.scheduleJob('10 * * * * *', () => {
   });
 });
 
-export default interactWithPeople;
+export defaults interactWithPeople;
