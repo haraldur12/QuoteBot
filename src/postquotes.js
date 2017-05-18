@@ -20,4 +20,4 @@ const postQuotes = () =>  schedule.scheduleJob('* 15 * * * *', () => {
   }
 });
 
-module.exports = postQuotes;
+export { postQuotes };

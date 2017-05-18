@@ -1,8 +1,8 @@
 
 const fs = require('fs');
 const schedule = require('node-schedule');
-const interactWithPeople = require('./response');
-const postQuotes = require('./postquotes')
+import { interactWithPeople} from './response.js'
+import { postQuotes } from './postquotes';
 import {dataGetter} from './data';
 
 
