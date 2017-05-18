@@ -16,6 +16,7 @@ line at a time and posts it to your account. Response.js is responsible for trac
 
 2. `npm install`
 3. `npm run build`
+4. `npm start` sets your bot on motion.
 
 # Running
 
