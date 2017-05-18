@@ -7,7 +7,7 @@
     "build": "babel src -d lib",
     "start" : "node lib/app.js"
   },
-  "author": "",
+  "author": "Ozan Araz",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^4.0.0",
