@@ -1,7 +1,7 @@
 const hashtag = require('./hashtag');
 const schedule = require('node-schedule');
-const client = require('./client');
-import {quoteToTweet} from './data';
+import { client } from ('./client');
+import { quoteToTweet } from './data';
 // It is set to post a tweet anytime when it is 15 past the hour.
 
 const postQuotes = () =>  schedule.scheduleJob('* 15 * * * *', () => {
