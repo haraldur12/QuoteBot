@@ -12,9 +12,9 @@ const imagify = (text,callback) => {
   fontSize: 18,
   lineHeight: 30,
   margin: 5,
-  bgColor: "#ffdb74",
-  textColor: "#252010",
-  fontFamily : "Raleway"
+  bgColor: "#090d00",
+  textColor: "rgba(255,255,255,.25)",
+  fontFamily : "Neuton"
   }).then(function (dataUri) {
     const base64Data = dataUri.replace(/^data:image\/png;base64,/, "");
     fs.writeFile("out.png", base64Data, 'base64', function(err) {

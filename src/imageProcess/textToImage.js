@@ -21,7 +21,7 @@ function generateImage(content, config) {
 
   var canvas = new Canvas(conf.maxWidth, textData.height + conf.margin * 2),
     ctx = canvas.getContext('2d');
-
+    
   ctx.globalAlpha = 1;
   ctx.fillStyle = conf.bgColor;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
